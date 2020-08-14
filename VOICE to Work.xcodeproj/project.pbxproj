@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1E82516524E6E0A600DCBFF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82516424E6E0A600DCBFF6 /* AppDelegate.swift */; };
 		1E82516724E6E0A600DCBFF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82516624E6E0A600DCBFF6 /* SceneDelegate.swift */; };
-		1E82516924E6E0A600DCBFF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82516824E6E0A600DCBFF6 /* ViewController.swift */; };
-		1E82516C24E6E0A600DCBFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E82516A24E6E0A600DCBFF6 /* Main.storyboard */; };
 		1E82516F24E6E0A600DCBFF6 /* VOICE_to_Work.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E82516D24E6E0A600DCBFF6 /* VOICE_to_Work.xcdatamodeld */; };
 		1E82517124E6E0A800DCBFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E82517024E6E0A800DCBFF6 /* Assets.xcassets */; };
 		1E82517424E6E0A800DCBFF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E82517224E6E0A800DCBFF6 /* LaunchScreen.storyboard */; };
 		1E82517F24E6E0A800DCBFF6 /* VOICE_to_WorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82517E24E6E0A800DCBFF6 /* VOICE_to_WorkTests.swift */; };
 		1E82518A24E6E0A800DCBFF6 /* VOICE_to_WorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82518924E6E0A800DCBFF6 /* VOICE_to_WorkUITests.swift */; };
+		1E82519924E6E53200DCBFF6 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 1E82519824E6E53200DCBFF6 /* Lottie */; };
+		1E82519B24E6E7EA00DCBFF6 /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82519A24E6E7EA00DCBFF6 /* PersistanceService.swift */; };
+		1E8251A424E722FB00DCBFF6 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8251A024E722FB00DCBFF6 /* NoteViewController.swift */; };
+		1E8251A524E722FB00DCBFF6 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8251A124E722FB00DCBFF6 /* EntryViewController.swift */; };
+		1E8251A624E722FB00DCBFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8251A224E722FB00DCBFF6 /* Main.storyboard */; };
+		1E8251A724E722FB00DCBFF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8251A324E722FB00DCBFF6 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		1E82516124E6E0A600DCBFF6 /* VOICE to Work.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VOICE to Work.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E82516424E6E0A600DCBFF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E82516624E6E0A600DCBFF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E82516824E6E0A600DCBFF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1E82516B24E6E0A600DCBFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E82516E24E6E0A600DCBFF6 /* VOICE_to_Work.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VOICE_to_Work.xcdatamodel; sourceTree = "<group>"; };
 		1E82517024E6E0A800DCBFF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E82517324E6E0A800DCBFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,11 @@
 		1E82518524E6E0A800DCBFF6 /* VOICE to WorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VOICE to WorkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E82518924E6E0A800DCBFF6 /* VOICE_to_WorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VOICE_to_WorkUITests.swift; sourceTree = "<group>"; };
 		1E82518B24E6E0A800DCBFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E82519A24E6E7EA00DCBFF6 /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
+		1E8251A024E722FB00DCBFF6 /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		1E8251A124E722FB00DCBFF6 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		1E8251A224E722FB00DCBFF6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1E8251A324E722FB00DCBFF6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E82519924E6E53200DCBFF6 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,9 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				1E82516424E6E0A600DCBFF6 /* AppDelegate.swift */,
+				1E82519A24E6E7EA00DCBFF6 /* PersistanceService.swift */,
 				1E82516624E6E0A600DCBFF6 /* SceneDelegate.swift */,
-				1E82516824E6E0A600DCBFF6 /* ViewController.swift */,
-				1E82516A24E6E0A600DCBFF6 /* Main.storyboard */,
+				1E8251A124E722FB00DCBFF6 /* EntryViewController.swift */,
+				1E8251A224E722FB00DCBFF6 /* Main.storyboard */,
+				1E8251A024E722FB00DCBFF6 /* NoteViewController.swift */,
+				1E8251A324E722FB00DCBFF6 /* ViewController.swift */,
 				1E82517024E6E0A800DCBFF6 /* Assets.xcassets */,
 				1E82517224E6E0A800DCBFF6 /* LaunchScreen.storyboard */,
 				1E82517524E6E0A800DCBFF6 /* Info.plist */,
@@ -147,6 +158,9 @@
 			dependencies = (
 			);
 			name = "VOICE to Work";
+			packageProductDependencies = (
+				1E82519824E6E53200DCBFF6 /* Lottie */,
+			);
 			productName = "VOICE to Work";
 			productReference = 1E82516124E6E0A600DCBFF6 /* VOICE to Work.app */;
 			productType = "com.apple.product-type.application";
@@ -219,6 +233,9 @@
 				Base,
 			);
 			mainGroup = 1E82515824E6E0A500DCBFF6;
+			packageReferences = (
+				1E82519724E6E53200DCBFF6 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 1E82516224E6E0A600DCBFF6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,9 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8251A624E722FB00DCBFF6 /* Main.storyboard in Resources */,
 				1E82517424E6E0A800DCBFF6 /* LaunchScreen.storyboard in Resources */,
 				1E82517124E6E0A800DCBFF6 /* Assets.xcassets in Resources */,
-				1E82516C24E6E0A600DCBFF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E82516F24E6E0A600DCBFF6 /* VOICE_to_Work.xcdatamodeld in Sources */,
-				1E82516924E6E0A600DCBFF6 /* ViewController.swift in Sources */,
 				1E82516524E6E0A600DCBFF6 /* AppDelegate.swift in Sources */,
 				1E82516724E6E0A600DCBFF6 /* SceneDelegate.swift in Sources */,
+				1E8251A424E722FB00DCBFF6 /* NoteViewController.swift in Sources */,
+				1E8251A724E722FB00DCBFF6 /* ViewController.swift in Sources */,
+				1E82519B24E6E7EA00DCBFF6 /* PersistanceService.swift in Sources */,
+				1E8251A524E722FB00DCBFF6 /* EntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1E82516A24E6E0A600DCBFF6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E82516B24E6E0A600DCBFF6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1E82517224E6E0A800DCBFF6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -594,6 +606,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E82519724E6E53200DCBFF6 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E82519824E6E53200DCBFF6 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E82519724E6E53200DCBFF6 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		1E82516D24E6E0A600DCBFF6 /* VOICE_to_Work.xcdatamodeld */ = {
