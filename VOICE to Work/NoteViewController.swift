@@ -1,10 +1,3 @@
-//
-//  NoteViewController.swift
-//  Notes
-//
-//  Created by Afraz Siddiqui on 3/16/20.
-//  Copyright © 2020 ASN GROUP LLC. All rights reserved.
-//
 
 import UIKit
 import CoreData
@@ -20,6 +13,7 @@ class NoteViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = noteTitle
+        
         noteLabel.text = note
     }
 

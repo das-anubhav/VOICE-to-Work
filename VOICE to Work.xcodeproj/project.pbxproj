@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0EEC2624E909B80018C976 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0EEC2424E909B80018C976 /* Person+CoreDataClass.swift */; };
+		1E0EEC2724E909B80018C976 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0EEC2524E909B80018C976 /* Person+CoreDataProperties.swift */; };
 		1E82516524E6E0A600DCBFF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82516424E6E0A600DCBFF6 /* AppDelegate.swift */; };
 		1E82516724E6E0A600DCBFF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82516624E6E0A600DCBFF6 /* SceneDelegate.swift */; };
 		1E82516F24E6E0A600DCBFF6 /* VOICE_to_Work.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E82516D24E6E0A600DCBFF6 /* VOICE_to_Work.xcdatamodeld */; };
@@ -40,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E0EEC2424E909B80018C976 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Person+CoreDataClass.swift"; path = "VOICE to Work/Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1E0EEC2524E909B80018C976 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Person+CoreDataProperties.swift"; path = "VOICE to Work/Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1E7D3A6424E8131C0052E3C6 /* VOICE to Work.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "VOICE to Work.entitlements"; sourceTree = "<group>"; };
 		1E82516124E6E0A600DCBFF6 /* VOICE to Work.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VOICE to Work.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E82516424E6E0A600DCBFF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E82516624E6E0A600DCBFF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +94,8 @@
 		1E82515824E6E0A500DCBFF6 = {
 			isa = PBXGroup;
 			children = (
+				1E0EEC2424E909B80018C976 /* Person+CoreDataClass.swift */,
+				1E0EEC2524E909B80018C976 /* Person+CoreDataProperties.swift */,
 				1E82516324E6E0A600DCBFF6 /* VOICE to Work */,
 				1E82517D24E6E0A800DCBFF6 /* VOICE to WorkTests */,
 				1E82518824E6E0A800DCBFF6 /* VOICE to WorkUITests */,
@@ -112,11 +119,12 @@
 				1E82516424E6E0A600DCBFF6 /* AppDelegate.swift */,
 				1E82519A24E6E7EA00DCBFF6 /* PersistanceService.swift */,
 				1E82516624E6E0A600DCBFF6 /* SceneDelegate.swift */,
+				1E7D3A6424E8131C0052E3C6 /* VOICE to Work.entitlements */,
 				1E8251A124E722FB00DCBFF6 /* EntryViewController.swift */,
-				1E8251A224E722FB00DCBFF6 /* Main.storyboard */,
 				1E8251A024E722FB00DCBFF6 /* NoteViewController.swift */,
 				1E8251A324E722FB00DCBFF6 /* ViewController.swift */,
 				1E82517024E6E0A800DCBFF6 /* Assets.xcassets */,
+				1E8251A224E722FB00DCBFF6 /* Main.storyboard */,
 				1E82517224E6E0A800DCBFF6 /* LaunchScreen.storyboard */,
 				1E82517524E6E0A800DCBFF6 /* Info.plist */,
 				1E82516D24E6E0A600DCBFF6 /* VOICE_to_Work.xcdatamodeld */,
@@ -279,7 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0EEC2624E909B80018C976 /* Person+CoreDataClass.swift in Sources */,
 				1E82516F24E6E0A600DCBFF6 /* VOICE_to_Work.xcdatamodeld in Sources */,
+				1E0EEC2724E909B80018C976 /* Person+CoreDataProperties.swift in Sources */,
 				1E82516524E6E0A600DCBFF6 /* AppDelegate.swift in Sources */,
 				1E82516724E6E0A600DCBFF6 /* SceneDelegate.swift in Sources */,
 				1E8251A424E722FB00DCBFF6 /* NoteViewController.swift in Sources */,
@@ -450,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "VOICE to Work/VOICE to Work.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MV782KQLG2;
 				INFOPLIST_FILE = "VOICE to Work/Info.plist";
@@ -459,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Captain-Anubhv.VOICE-to-Work";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "VOICE to Work/VOICE to Work.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MV782KQLG2;
 				INFOPLIST_FILE = "VOICE to Work/Info.plist";
@@ -477,6 +490,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Captain-Anubhv.VOICE-to-Work";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
