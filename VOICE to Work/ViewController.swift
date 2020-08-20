@@ -11,7 +11,7 @@ class ViewController: UIViewController, UITableViewDelegate {
     var models: [(title: String, note: String)] = []
 
 //    var people = [Person]()
-
+//
     override func viewDidLoad() {
         super.viewDidLoad()
         table.delegate = self
