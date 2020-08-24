@@ -17,7 +17,7 @@ class ViewController: UIViewController, UITableViewDelegate {
         table.delegate = self
         table.dataSource = self
         title = "Notes"
-        
+//        
         
 
 //        let fetchRequest: NSFetchRequest<Person> = Person.fetchRequest()
